@@ -1,11 +1,72 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>simple04</title>
+    <link href="simple04.css" rel="stylesheet"
+          type="text/css">
+    <style type="text/css">
+        .toolbar li {
+            display:inline;
+            background-color: #EEE;
+            border: 1px solid;
+            border-color: #F3F3F3 #BBB #BBB #F3F3F3;
+            padding: .5em;
+        }
+        #col1 {
+            float: left;
+            width: 150px;
+            background-color: lightskyblue;
+        }
+        #col2 {
+            float: left;
+            width: 120px;
+            background-color: yellow;
+        }
+        #col4 {
+            position: absolute;
+            bottom: 300px;
+            right: 1100px;
+            background-color: lightskyblue;
+        }
+        #col5 {
+            background-color: yellow;
+        }
+        #col7 {
+            width: 200px;
+            height: 200px;
+            background-color: lightskyblue;
+            overflow: scroll;
+        }
+        #col8 {
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
-simple04
+    <h1>Trusty Lawn Care, Inc.</h1>
+        <p id="slogan">We keep you in green.</p>
+        <p>Trusty Lawn Care can keep your lawn looking lush and vigorous all season. We use only natural fertilizers, mulches, and soils to boost the health of your turf.</p>
+    <h1>Block and inline flow</h1>
+        <p>Here are choices you can make: </p>
+            <ul class="toolbar">
+                <li>Automobile</li>
+                <li>Bicycle</li>
+                <li>Scooter</li>
+                <li>Taxi</li>
+                <li>Walk</li>
+            </ul>
+    <h1>Float positioning</h1>
+        <p id="col1">Lorem ipsum . . .</p>
+        <p id="col2">Lorem ipsum . . .</p>
+        <p id="col3">Lorem ipsum . . .</p>
+    <h1>Absolute positioning</h1>
+        <p id="col4">Lorem ipsum . . .</p>
+        <p id="col5">Lorem ipsum . . .</p>
+        <p id="col6">Lorem ipsum . . .</p>
+    <h1>Scroll overflow</h1>
+        <p id="col7">Lorem ipsum . . .Lorem ipsum . . .Lorem ipsum . . .Lorem ipsum . . .Lorem ipsum . . .Lorem ipsum . . .Lorem ipsum . . .Lorem ipsum . . .Lorem ipsum . . .Lorem ipsum . . .Lorem ipsum . . .Lorem ipsum . . .Lorem ipsum . . .Lorem ipsum . . .Lorem ipsum . . .Lorem ipsum . . .</p>
+        <p id="col8">Lorem ipsum . . .</p>
+        <p id="col9">Lorem ipsum . . .</p>
 </body>
 </html>
